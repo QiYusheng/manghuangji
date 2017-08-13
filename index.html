@@ -1,0 +1,128 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Untitled Document</title>
+<style>
+	.page{overflow: hidden}
+	*{margin: 0; padding: 0}
+	.bg{ width: 100%; height: 100%; background: url(image/BG.jpg) top center; z-index: -10; }	
+	.section{width: 1000px; height: 3100px; background:  rgba(228,228,228,0.30);margin: 0 auto; position: relative}
+	.bnner img{width:100%;position: relative:}
+	.fb {position: absolute;z-index: 2;width: 1000px;  left: 50%;margin-left: -500px;margin-top: -140px}
+	.fb img{width:auto; margin-right: 2%;float: right;width:8%}
+	.chrictorY{ margin-top: -12%;margin-left:-46%; display: block;background: rgba(255,108,110,0.41);z-index: -2;}
+	.chrictorY .chri{position:relative}
+	.chrictorY .play{position: absolute;margin-top:35%;margin-left: 85%;}
+	.play .playI{position: absolute}
+	.play .lightB{margin-left:-85px; z-index: 2}
+	.play .lightA{margin-left:-85px; z-index: 0;
+		animation:myfirst 5s infinite linear;
+		transform: rotate(0deg);
+		-moz-animation:myfirst 5s infinite linear; /* Firefox */
+		-webkit-animation:myfirst 5s infinite linear; /* Safari and Chrome */
+		-o-animation:myfirst 5s infinite linear; /* Opera */
+	}
+	@keyframes myfirst /* Safari and Chrome */
+	{
+		from {transform: rotate(0deg);}
+		to {transform: rotate(360deg);}
+	}
+	@-moz-keyframes myfirst /* Safari and Chrome */
+	{
+		from {transform: rotate(0deg);}
+		to {transform: rotate(360deg);}
+	}
+	@-o-keyframes myfirst /* Safari and Chrome */
+	{
+		from {transform: rotate(0deg);}
+		to {transform: rotate(360deg);}
+	}
+	@-webkit-keyframes myfirst /* Safari and Chrome */
+	{
+		from {transform: rotate(0deg);}
+		to {transform: rotate(360deg);}
+	}
+	.play .but{margin-left:-85px;z-index: 4;
+	-webkit-transition: -webkit-transform 2s; /* Safari and Chrome */
+	}
+	.play .but:hover{-webkit-transform:scale(1.2,1.2); /* Safari and Chrome */
+	}
+
+	.word{width: auto;  float: right;position: absolute;right:1%; top: 2%; }
+	.word .slo1{margin-right:1%; margin-top: 2%;}
+	.word .slo2{margin-right:1%; margin-top: -5%;}
+	.word img{float: right}
+	
+	.jining img{ position: absolute; margin-top: -60%;margin-right:-42%;z-index: 2}
+	.word2 .wordin{position: absolute; margin-top: -30%}
+	.jiangpin{position: absolute; margin-top: 2%}
+	.window{position: absolute; z-index: 10; width: 750px; height: 420px;margin-top: 14%;background: rgba(88,180,255,0.57); border:10px rgba(11,27,65,1.00) solid}
+	.blue img{position: absolute;margin-left:-46%;margin-top: -20%}
+	@media screen and (max-width: 1100px) { /*当屏幕尺寸小于1100px时，应用下面的CSS样式*/
+		.section{width: 100%; }
+		.chrictorY{width: 100%}
+		.chrictorY .chri{width: 140%;margin-top: 10%;}
+		.chrictorY .play{margin-top: 35%;width: 100%}
+		.play .lightB{margin-top: 35px;margin-left:-20px; width:20% }
+		.play .lightA{margin-top: 35px;margin-left:-20px; width:20%}
+		.play .but{z-index: 3; margin-top: 35px;margin-left:-20px; width:20%}
+		.playI{}
+		.fb{width:100%;left: 0;margin-left: 0; margin-top: -12%}
+		.fb img{width:8%}
+		.word{width:100%}
+		.word .slo1{width: 67%}
+		.word .slo2{width: 58%}
+		.jining img{width: 150%;}
+		.word2 img{width: 65%}
+		.window{width:75%;height: 200px}
+		.blue img{width: 116%;margin-top: -5%}
+}
+</style>
+</head>
+
+<body>
+<div class="page">
+	<div class="bnner">
+		<img src="image/7.jpg">	
+		<div class="fb">
+		 <a href="www.google.com"><img src="image/facebook.png"></a>
+			<a href="www.google.com"><img src="image/youtube.png"></a>
+		</div>
+  </div>
+	<div class="bg">
+	<div class="section">
+	<div class="chrictorY">
+	<div class="play">
+		<img class="playI lightB" src="image/playB.png">
+		<img class="playI lightA" src="image/图层 9.png">
+		<img class="playI but" src="image/PLAY.png">
+		</div>
+	<img class="chri" src="image/图层 1303 副本.png">
+		</div>
+		<div class="word">
+			<img class="slo1" src="image/组 9.png">
+			<img class="slo2" src="image/组 11.png">
+			
+		</div>
+		<div class="jining">
+			<img src="image/jining.png">
+		</div>
+		<div class="word2">
+			<img class="wordin" src="image/2.png">
+			<img class="jiangpin" src="image/奖品.png">
+		</div>
+		<div class="window">
+			
+			
+		</div>
+		<div class="blue">
+			<img src="image/图层 1289 副本 2.png">
+		</div>
+	</div>
+
+		
+	</div>
+</div>
+</body>
+</html>
