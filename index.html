@@ -10,9 +10,10 @@
 	.section{width: 1000px; height: 3100px;margin: 0 auto; position: relative}
 	.bnner img{width:100%;position: relative:}
 	.fb {position: absolute;z-index: 2;width: 1000px;  left: 50%;margin-left: -500px;margin-top: -140px}
-	.fb img{width:auto; margin-right: 2%;float: right;width:8%}
-	.chrictorY{ margin-top: -12%;margin-left:-46%; display: block;z-index: -2;}
+	.fb img{width:auto; margin-right: 2%;float: right;width:8%; }
+	.chrictorY{margin-top: -12%;margin-left:-46%; display: block;z-index: -2;}
 	.chrictorY .chri{position:relative}
+	.chrictorY .lighting{ position: absolute;}
 	.chrictorY .play{position: absolute;margin-top:35%;margin-left: 85%;}
 	.play .playI{position: absolute}
 	.play .lightB{margin-left:-85px; z-index: 2}
@@ -49,7 +50,12 @@
 	.play .but:hover{-webkit-transform:scale(1.2,1.2); /* Safari and Chrome */
 	}
 
-	.word{width: auto;  float: right;position: absolute;right:1%; top: 2%; }
+	.word{
+	width: auto;
+	position: absolute;
+	right: 1%;
+	top: 2%;
+}
 	.word .slo1{margin-right:1%; margin-top: 2%;}
 	.word .slo2{margin-right:1%; margin-top: -5%;}
 	.word img{float: right}
@@ -59,11 +65,16 @@
 	.jiangpin{position: absolute; margin-top: 2%}
 	.window{position: absolute; z-index: 10; width: 750px; height: 420px;margin-top: 14%;background: rgba(88,180,255,0.57); border:10px rgba(11,27,65,1.00) solid}
 	.blue img{position: absolute;margin-left:-46%;margin-top: -20%}
+	.word3{background: rgba(0,0,0,0.50);position: absolute;float:right;margin-left:40%;margin-top: 70%;width: 75%;height: 580px;padding:5% 2% 5% 2%}
+	.word3 img{position: absolute;float:right;margin-left:2%;margin-top:-4%}
+	.word3 p{ color: aliceblue; width: 100%; float:right;margin-left:2%;margin-top:5%;font: bold 36px;font-size:32px;font-family: "Microsoft JhengHei";  font-weight: bold;line-height: 1.5;text-align: left}
+	
 	@media screen and (max-width: 1100px) { /*当屏幕尺寸小于1100px时，应用下面的CSS样式*/
 		.section{width: 100%; }
 		.chrictorY{width: 100%}
 		.chrictorY .chri{width: 140%;margin-top: 10%;}
 		.chrictorY .play{margin-top: 35%;width: 100%}
+		.lighting{width:113%;}
 		.play .lightB{margin-top: 35px;margin-left:-20px; width:20% }
 		.play .lightA{margin-top: 35px;margin-left:-20px; width:20%}
 		.play .but{z-index: 3; margin-top: 35px;margin-left:-20px; width:20%}
@@ -75,8 +86,9 @@
 		.word .slo2{width: 58%}
 		.jining img{width: 150%;}
 		.word2 img{width: 65%}
-		.window{width:75%;height: 200px}
+		.window{width:75%;height: 350px}
 		.blue img{width: 116%;margin-top: -5%}
+		
 }
 </style>
 </head>
@@ -98,6 +110,7 @@
 		<img class="playI lightA" src="image/图层 9.png">
 		<img class="playI but" src="image/PLAY.png">
 		</div>
+		<img class="lighting" src="image/组 8.png">
 	<img class="chri" src="image/图层 1303 副本.png">
 		</div>
 		<div class="word">
@@ -118,6 +131,18 @@
 		</div>
 		<div class="blue">
 			<img src="image/图层 1289 副本 2.png">
+		</div>
+		<div class="word3">
+			<img src="image/参与流程.png">
+			<div >
+				<p>
+					1,留下郵箱并点赞FB粉絲頁/加入 FB小組[新莽荒紀預約]<br/>
+2,待遊戲公測后, 會在7日內郵件提示公測信息,並在小組發放獨家[預約大禮包]
+<br/>3,每個ID可領取一次獎勵
+				</p>
+				
+			</div>
+			
 		</div>
 	</div>
 
